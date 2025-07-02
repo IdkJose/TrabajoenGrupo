@@ -13,7 +13,7 @@ let intervaloID = null;
 function iniciarIntervalo() {
     if (intervaloID === null) {
         intervaloID = setInterval(() => {
-            contador+1;
+            contador++;
             document.getElementById("contador").textContent = `Contador: ${contador}`;
         }, 1000);
     }
