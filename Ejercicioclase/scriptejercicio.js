@@ -20,7 +20,7 @@ function toggleContador() {
         boton.textContent = 'Parar contador';
         
         miTimer = setInterval(function() {
-            contador+1;
+            contador++;
             contadorElemento.textContent = contador;
         }, 1000);
     } else {
