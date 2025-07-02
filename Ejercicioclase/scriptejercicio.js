@@ -24,7 +24,7 @@ function toggleContador() {
             contadorElemento.textContent = contador;
         }, 1000);
     } else {
-        clearInterval(miTimer);
+        clearInterval(miTímer);
         miTimer = null;
         boton.textContent = 'Empezar contador';
     }
